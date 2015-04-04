@@ -1,0 +1,171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json hw2-2@1.0.0 No description
+6 warn package.json hw2-2@1.0.0 No repository field.
+7 warn package.json hw2-2@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/Users/chadsfather/Desktop/Desktop Groups/Escritorio/proyectos_web/mongoDBUniversity/hw2-2',
+9 verbose install   [ 'underscore', 'q' ] ]
+10 info preinstall hw2-2@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'q@*', null ]
+13 verbose cache add spec="q@*" args=["q@*",null]
+14 verbose parsed spec { raw: 'q@*',
+14 verbose parsed spec   scope: null,
+14 verbose parsed spec   name: 'q',
+14 verbose parsed spec   rawSpec: '*',
+14 verbose parsed spec   spec: '*',
+14 verbose parsed spec   type: 'range' }
+15 verbose already installed skipping underscore@* /Users/chadsfather/Desktop/Desktop Groups/Escritorio/proyectos_web/mongoDBUniversity/hw2-2
+16 verbose parsed spec { raw: 'q@*',
+16 verbose parsed spec   scope: null,
+16 verbose parsed spec   name: 'q',
+16 verbose parsed spec   rawSpec: '*',
+16 verbose parsed spec   spec: '*',
+16 verbose parsed spec   type: 'range' }
+17 verbose addNamed [ 'q', '*' ]
+18 verbose addNamed [ null, '*' ]
+19 silly lockFile 18bab862-q q@*
+20 verbose lock q@* /Users/chadsfather/.npm/18bab862-q.lock
+21 silly addNameRange { name: 'q', range: '*', hasData: false }
+22 verbose mapToRegistry name q
+23 verbose mapToRegistry uri https://registry.npmjs.org/q
+24 verbose request on initialization, where is /q
+25 verbose request after pass 1, where is /q
+26 verbose request url raw /q
+27 verbose request resolving registry [ 'https://registry.npmjs.org/', './q' ]
+28 verbose request after pass 2, where is https://registry.npmjs.org/q
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 18:59:04
+31 verbose request id c464a6c20590eeef
+32 verbose etag "ETQDUQ1QH450848DUSL7BY14Y"
+33 http request GET https://registry.npmjs.org/q
+34 http 304 https://registry.npmjs.org/q
+35 silly registry.get cb [ 304,
+35 silly registry.get   { date: 'Sun, 29 Mar 2015 16:59:05 GMT',
+35 silly registry.get     server: 'Apache',
+35 silly registry.get     via: '1.1 varnish',
+35 silly registry.get     'last-modified': 'Sun, 29 Mar 2015 16:59:05 GMT',
+35 silly registry.get     'cache-control': 'max-age=60',
+35 silly registry.get     etag: '"ETQDUQ1QH450848DUSL7BY14Y"',
+35 silly registry.get     age: '28',
+35 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+35 silly registry.get     'x-cache': 'HIT',
+35 silly registry.get     'x-cache-hits': '1',
+35 silly registry.get     'x-timer': 'S1427648345.131596,VS0,VE1',
+35 silly registry.get     vary: 'Accept',
+35 silly registry.get     'content-length': '0',
+35 silly registry.get     'keep-alive': 'timeout=10, max=50',
+35 silly registry.get     connection: 'Keep-Alive' } ]
+36 verbose etag https://registry.npmjs.org/q from cache
+37 silly addNameRange number 2 { name: 'q', range: '*', hasData: true }
+38 silly addNameRange versions [ 'q',
+38 silly addNameRange   [ '0.0.0',
+38 silly addNameRange     '0.0.1',
+38 silly addNameRange     '0.0.2',
+38 silly addNameRange     '0.0.3',
+38 silly addNameRange     '0.1.0',
+38 silly addNameRange     '0.1.1',
+38 silly addNameRange     '0.1.2',
+38 silly addNameRange     '0.1.3',
+38 silly addNameRange     '0.1.4',
+38 silly addNameRange     '0.1.5',
+38 silly addNameRange     '0.1.6',
+38 silly addNameRange     '0.1.7',
+38 silly addNameRange     '0.1.8',
+38 silly addNameRange     '0.1.9',
+38 silly addNameRange     '0.2.0-rc1',
+38 silly addNameRange     '0.2.0',
+38 silly addNameRange     '0.2.1',
+38 silly addNameRange     '0.2.2',
+38 silly addNameRange     '0.2.3',
+38 silly addNameRange     '0.2.4',
+38 silly addNameRange     '0.2.5',
+38 silly addNameRange     '0.2.6',
+38 silly addNameRange     '0.2.7',
+38 silly addNameRange     '0.2.8',
+38 silly addNameRange     '0.2.9',
+38 silly addNameRange     '0.3.0',
+38 silly addNameRange     '0.2.10',
+38 silly addNameRange     '0.4.0',
+38 silly addNameRange     '0.4.1',
+38 silly addNameRange     '0.4.2',
+38 silly addNameRange     '0.4.4',
+38 silly addNameRange     '0.5.0',
+38 silly addNameRange     '0.5.1',
+38 silly addNameRange     '0.5.2',
+38 silly addNameRange     '0.5.3',
+38 silly addNameRange     '0.6.0',
+38 silly addNameRange     '0.7.0',
+38 silly addNameRange     '0.7.1',
+38 silly addNameRange     '0.7.2',
+38 silly addNameRange     '0.8.0',
+38 silly addNameRange     '0.8.1',
+38 silly addNameRange     '0.8.2',
+38 silly addNameRange     '0.8.3',
+38 silly addNameRange     '0.8.4',
+38 silly addNameRange     '0.8.5',
+38 silly addNameRange     '0.8.6',
+38 silly addNameRange     '0.8.7',
+38 silly addNameRange     '0.8.8',
+38 silly addNameRange     '0.8.9',
+38 silly addNameRange     '0.8.10',
+38 silly addNameRange     '0.8.11',
+38 silly addNameRange     '0.8.12',
+38 silly addNameRange     '0.9.0',
+38 silly addNameRange     '0.9.1',
+38 silly addNameRange     '0.9.2',
+38 silly addNameRange     '0.9.3',
+38 silly addNameRange     '0.9.4',
+38 silly addNameRange     '0.9.5',
+38 silly addNameRange     '0.9.6',
+38 silly addNameRange     '0.9.7',
+38 silly addNameRange     '1.0.0',
+38 silly addNameRange     '1.0.1',
+38 silly addNameRange     '2.0.0',
+38 silly addNameRange     '2.0.1',
+38 silly addNameRange     '2.0.2',
+38 silly addNameRange     '1.1.0',
+38 silly addNameRange     '1.1.1',
+38 silly addNameRange     '1.1.2',
+38 silly addNameRange     '2.0.3',
+38 silly addNameRange     '1.2.0' ] ]
+39 verbose addNamed [ 'q', '1.2.0' ]
+40 verbose addNamed [ '1.2.0', '1.2.0' ]
+41 silly lockFile 0069ac1d-q-1-2-0 q@1.2.0
+42 verbose lock q@1.2.0 /Users/chadsfather/.npm/0069ac1d-q-1-2-0.lock
+43 silly lockFile a55c401a-registry-npmjs-org-q-q-1-2-0-tgz https://registry.npmjs.org/q/-/q-1.2.0.tgz
+44 verbose lock https://registry.npmjs.org/q/-/q-1.2.0.tgz /Users/chadsfather/.npm/a55c401a-registry-npmjs-org-q-q-1-2-0-tgz.lock
+45 verbose addRemoteTarball [ 'https://registry.npmjs.org/q/-/q-1.2.0.tgz',
+45 verbose addRemoteTarball   '811705ce4a9802adff811ab0fcdbd01946e1fe22' ]
+46 info retry fetch attempt 1 at 18:59:05
+47 info attempt registry request try #1 at 18:59:05
+48 http fetch GET https://registry.npmjs.org/q/-/q-1.2.0.tgz
+49 http fetch 200 https://registry.npmjs.org/q/-/q-1.2.0.tgz
+50 silly fetchAndShaCheck shasum 811705ce4a9802adff811ab0fcdbd01946e1fe22
+51 silly lockFile a55c401a-registry-npmjs-org-q-q-1-2-0-tgz https://registry.npmjs.org/q/-/q-1.2.0.tgz
+52 silly lockFile a55c401a-registry-npmjs-org-q-q-1-2-0-tgz https://registry.npmjs.org/q/-/q-1.2.0.tgz
+53 silly lockFile 0069ac1d-q-1-2-0 q@1.2.0
+54 silly lockFile 0069ac1d-q-1-2-0 q@1.2.0
+55 silly lockFile 18bab862-q q@*
+56 silly lockFile 18bab862-q q@*
+57 verbose stack Error: EACCES, mkdir '/Users/chadsfather/.npm/q/1.2.0'
+58 verbose cwd /Users/chadsfather/Desktop/Desktop Groups/Escritorio/proyectos_web/mongoDBUniversity/hw2-2
+59 error Darwin 14.1.0
+60 error argv "node" "/usr/local/bin/npm" "install"
+61 error node v0.10.32
+62 error npm  v2.0.2
+63 error path /Users/chadsfather/.npm/q/1.2.0
+64 error code EACCES
+65 error errno 3
+66 error Error: EACCES, mkdir '/Users/chadsfather/.npm/q/1.2.0'
+66 error  { [Error: EACCES, mkdir '/Users/chadsfather/.npm/q/1.2.0']
+66 error   errno: 3,
+66 error   code: 'EACCES',
+66 error   path: '/Users/chadsfather/.npm/q/1.2.0',
+66 error   parent: 'hw2-2' }
+67 error Please try running this command again as root/Administrator.
+68 verbose exit [ 3, true ]
